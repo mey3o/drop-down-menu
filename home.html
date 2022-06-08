@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>menu list</title>
+    <link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css">
+
+    <script src="https://kit.fontawesome.com/d9cd6a87bc.js" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+
+
+
+    <div class="container">
+        <div class="menu_btn">
+             <i class="icon"></i>
+        </div>
+        <div class="menu_list">
+             <li> <a href="#" > <span class="jam jam-youtube" >  </span><span>&nbsp;yotube</span></a></li>            
+             <li> <a href="#" > <span class="jam jam-twitter">    </span><span>&nbsp;twitter</span></a></li>
+             <li> <a href="#" > <span class="jam jam-facebook">  </span><span>&nbsp;facebook</span></a></li>
+             <li> <a href="#" > <span class="jam jam-instagram"> </span><span>&nbsp;instagram</span></a></li>
+             <li> <a href="#" > <span class="jam jam-github">    </span><span>&nbsp;github</span></a></li>
+          
+         </div>
+    </div>
+
+    <script>
+        var menubtn = document.getElementsByClassName('menu_btn')[0];
+        menubtn.addEventListener('click',()=>{
+        menubtn.classList.toggle('active'); })
+     
+      
+    </script> 
+    
+</body>
+</html>
